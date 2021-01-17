@@ -1,0 +1,60 @@
+body {
+  background: black;
+}
+
+nav,
+a {
+  background: black;
+  color: white;
+  margin: 0 auto;
+  margin: 10px;
+}
+
+.section1 {
+  margin-top: 110px;
+}
+
+.landing-text {
+  color: white;
+  font-size: 18px;
+}
+
+.landing-text-title {
+  font-weight: 600;
+}
+
+.getNowButton {
+  width: 250px;
+  color: white;
+  font-weight: 600;
+  background: #58cea5;
+  border-radius: 10px;
+}
+
+h1.text-center {
+  color: #58cea5;
+  font-weight: 600;
+}
+
+h6.text-center {
+  color: white;
+}
+
+.hero-section {
+  background: white;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 900px) {
+  .hero-section {
+    margin: 80px 200px 30px 200px;
+  }
+
+  .hero-section .title {
+    margin-top: 150px;
+  }
+}
