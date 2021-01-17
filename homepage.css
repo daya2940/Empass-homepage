@@ -49,6 +49,26 @@ h6.text-center {
   height: 70%;
 }
 
+.security-background {
+  background: #58cea5;
+  margin: 0 auto;
+}
+
+.form-input {
+  padding: 15px;
+  border: none;
+  background: whitesmoke;
+  outline: none;
+}
+
+.request-demo {
+  background: #58cea5;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
 @media only screen and (min-width: 900px) {
   .hero-section {
     margin: 80px 200px 30px 200px;
@@ -62,11 +82,40 @@ h6.text-center {
     display: flex;
     justify-content: start;
   }
+  .security-text {
+    color: white;
+    display: flex;
+    padding-top: 43px;
+    justify-content: start;
+  }
+
+  .security-subText {
+    color: white;
+    display: flex;
+    padding: 17px 38px 0px 0px;
+    justify-content: start;
+  }
+
+  .request-demo-form {
+    width: 35rem;
+  }
 }
 
 @media only screen and (max-width: 899px) {
   .comparison-text {
     display: flex;
     justify-content: center;
+  }
+  .security-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .security-subText {
+    color: white;
+  }
+
+  .request-demo-form {
+    width: 20rem;
   }
 }
