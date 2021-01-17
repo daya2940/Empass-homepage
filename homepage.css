@@ -69,6 +69,11 @@ h6.text-center {
   color: white;
 }
 
+.getButton {
+  color: #58cea5;
+  background: white;
+}
+
 @media only screen and (min-width: 900px) {
   .hero-section {
     margin: 80px 200px 30px 200px;
