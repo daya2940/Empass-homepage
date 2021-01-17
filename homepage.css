@@ -57,4 +57,16 @@ h6.text-center {
   .hero-section .title {
     margin-top: 150px;
   }
+
+  .comparison-text {
+    display: flex;
+    justify-content: start;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .comparison-text {
+    display: flex;
+    justify-content: center;
+  }
 }
