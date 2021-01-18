@@ -88,6 +88,10 @@ h6.text-center {
   margin-bottom: 5px;
 }
 
+.request-demo-form {
+  width: 100%;
+}
+
 @media only screen and (min-width: 900px) {
   .hero-section {
     margin: 80px 200px 30px 200px;
@@ -116,7 +120,7 @@ h6.text-center {
   }
 
   .request-demo-form {
-    width: 23rem;
+    width: 35rem;
   }
 
   .navbar-nav {
@@ -158,9 +162,5 @@ h6.text-center {
   }
   .security-subText {
     color: white;
-  }
-
-  .request-demo-form {
-    width: 20rem;
   }
 }
