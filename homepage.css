@@ -74,6 +74,20 @@ h6.text-center {
   background: white;
 }
 
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: #58cea5;
+  border: none;
+}
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
 @media only screen and (min-width: 900px) {
   .hero-section {
     margin: 80px 200px 30px 200px;
@@ -102,7 +116,33 @@ h6.text-center {
   }
 
   .request-demo-form {
-    width: 35rem;
+    width: 23rem;
+  }
+
+  .navbar-nav {
+    margin-left: 6vw;
+    font-size: 15px;
+  }
+
+  .navbar-brand {
+    margin-left: 5vw;
+  }
+
+  .navbar-expand-xl .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .word-pattern {
+    word-break: break-all;
+    margin-left: 114px;
+    font-size: 15px;
+  }
+
+  .word-pattern-2 {
+    word-break: break-all;
+    margin-right: 30px;
+    font-size: 15px;
   }
 }
 
